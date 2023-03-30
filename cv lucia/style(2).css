@@ -1,0 +1,613 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: lightsteelblue;
+    margin: 0;
+  }
+
+  
+
+    /*Encabzado de la persona a contratar*/
+
+/* CÓDIGO PARA PANTALLAS INFERIORES A 480 PIXELES */
+@media (max-width: 480px){
+  #container {
+    /* Linea Agregada  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    background: #363844;
+    height: 150px;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  .img {
+    width: 55%;
+    /*margin: 15px;*/
+    border-radius: 15%;
+    padding-right: 10px;
+  }
+  h1{
+    
+    text-align: center;
+  }
+  .Name {
+    float: right;
+   /* margin-right: 345px;
+    margin-top: 45px;*/
+    color: #ddd;
+    display: inline-block;
+    border-bottom: solid 2px #D1C5AB;
+  }
+  #encabezado{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+/*Educacion*/
+  #caja-1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 5%;
+
+    }
+  #colums-top {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 5px;
+    width: 95%;
+    text-align: center;
+  }
+
+  .titulo-1 {
+    margin-left: 135px;
+    background-color: #363844;
+    width: 135px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .educacion {
+    color: #ddd;
+
+  }
+
+  /*Primera educacion*/
+
+  .sub-tl {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .estudio {
+    font-family: 'Noto Sans', sans-serif;
+    display: inline-block;
+  }
+
+  /*Segunda educacion*/
+
+  .sub-tl-2 {
+    font-family: "Noto Sans" , sans-serif;
+  }
+
+  .estudio-2 {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /*Experiencia laboral*/
+
+  #colums-medium {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 5%;
+    margin-left: 5px;
+    width: 95%;
+    text-align: center;
+  }
+
+  .titulo-2 {
+    margin-left: 100px;
+    background-color: #363844;
+    width: 200px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .work {
+    color: #ddd;
+  }
+
+  /*Primera experiencia laboral*/
+
+  .sub-tl-3 {
+    font-family: "Noto Sans" , sans-serif;
+  }
+
+  .experience-1 {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /*segunda experiencia laboral*/
+
+  .sub-tl-4 {
+    font-family: "Noto Sans" , sans-serif;
+  }
+
+  .experience-2 {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /*Lenguajes de programacion*/
+
+  #colums-bottom {
+    /* Código Editado */
+    text-align: center;
+    /*margin-left: 335px;*/
+    background-color: #e9e9e9;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  #leng {
+    text-align: center;
+    margin-left: 35%;
+    color: #ddd;
+    background-color: #363844;
+    width: 115px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  /*Lenguajes De programacion*/
+
+  .img-1 {
+    width: 86px;
+    cursor: pointer;
+  }
+
+  .img-1:hover {
+    /*border: #363844 solid 2px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-2 {
+    width: 86px;
+    margin-left: 27px;
+    cursor: pointer;
+  }
+
+  .img-2:hover {
+    border: #363844 solid 1px;
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-3 {
+    width: 153px;
+    height: 140;
+    cursor: pointer;
+  }
+
+  .img-3:hover {
+    /*border: #363844 solid 1px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  /*Contactos*/
+
+  #info {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+  }
+
+  .ancla:link {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .ancla:visited {
+    border: #363844 solid 1px;
+    opacity: 0.5;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+    /*Skill-1*/
+
+  #skill-1 {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 5px;
+  }
+
+  .web {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .graficos {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .interfaz {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .animacion {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+    /*Skill-2*/
+
+  #skill-2 {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 5px;
+  }  
+
+  .creatividad {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .equipo {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .gestion {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .lider {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+}
+
+
+/* CÓDIGO PARA PANTALLAS SUPERIORES A 481 PIXELES */
+@media (min-width: 481px){
+  #container {
+    /* Linea Agregada  */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    background: #363844;
+    height: 150px;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  .img {
+    width: 150px;
+    /*margin: 15px;*/
+    border-radius: 10%;
+    
+  }
+  h1{
+    
+    text-align: center;
+  }
+  #encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+  }
+  .Name {
+    float: right;
+
+   /* margin-right: 345px;
+    margin-top: 45px;*/
+    color: #ddd;
+    display: inline-block;
+    border-bottom: solid 2px #D1C5AB;
+  }
+
+/*Educacion*/
+  #caja-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  #colums-top {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 5px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .titulo-1 {
+    margin-left: 135px;
+    background-color: #363844;
+    width: 135px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .educacion {
+    color: #ddd;
+  }
+
+  /*Primera educacion*/
+
+  .sub-tl {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .estudio {
+    font-family: 'Noto Sans', sans-serif;
+    display: inline-block;
+  }
+
+  /*Segunda educacion*/
+
+  .sub-tl-2 {
+    font-family: "Noto Sans" , sans-serif;
+  }
+
+  .estudio-2 {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /*Experiencia laboral*/
+
+  #colums-medium {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 5px;
+    width: 400px;
+    text-align: center;
+  }
+
+  .titulo-2 {
+    margin-left: 100px;
+    background-color: #363844;
+    width: 200px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .work {
+    color: #ddd;
+  }
+
+  /*Primera experiencia laboral*/
+
+  .sub-tl-3 {
+    font-family: "Noto Sans" , sans-serif;
+  }
+
+  .experience-1 {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /*segunda experiencia laboral*/
+
+  .sub-tl-4 {
+    font-family: "Noto Sans" , sans-serif;
+  }
+
+  .experience-2 {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /*Lenguajes de programacion*/
+
+  #colums-bottom {
+    text-align: center;
+    background-color: #e9e9e9;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  #leng {
+    text-align: center;
+    margin-left: 40%;
+    color: #ddd;
+    background-color: #363844;
+    width: 115px;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  /*Lenguajes De programacion*/
+
+  .img-1 {
+    width: 86px;
+    cursor: pointer;
+  }
+
+  .img-1:hover {
+    /*border: #363844 solid 2px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-2 {
+    width: 86px;
+    margin-left: 27px;
+    cursor: pointer;
+  }
+
+  .img-2:hover {
+    border: #363844 solid 1px;
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  .img-3 {
+    width: 153px;
+    height: 140;
+    cursor: pointer;
+  }
+
+  .img-3:hover {
+    /*border: #363844 solid 1px;*/
+    border-radius: 0px 17px 0px 17px;
+    opacity: 0.5;
+  }
+
+  /*Contactos*/
+
+  #info {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    width: 250px;
+    text-align: center;
+    margin-left: 40%;
+  }
+
+  .ancla:link {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .ancla:visited {
+    border: #363844 solid 1px;
+    opacity: 0.5;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+    /*Skill-1*/
+
+  #skill-1 {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 5px;
+  }
+
+  .web {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .graficos {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .interfaz {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .animacion {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+    /*Skill-2*/
+
+  #skill-2 {
+    background-color: #e9e9e9;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 5px;
+  }  
+
+  .creatividad {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .equipo {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .gestion {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+  .lider {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 5px;
+  }
+
+/*---------- desplegable -------*/
+  nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: gray;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+nav ul ul li {
+  display: block;
+  width: 200px;
+}
+
+nav ul ul li a {
+  display: block;
+  padding: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul ul li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Agregar un icono de flecha hacia abajo en el submenú */
+nav ul li > a:after {
+  content: "\25BC";
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+/* Cambiar el icono de flecha hacia abajo a una flecha hacia arriba cuando se abre el submenú */
+nav ul li > a.active:after {
+  content: "\25B2";
+}
+
+
